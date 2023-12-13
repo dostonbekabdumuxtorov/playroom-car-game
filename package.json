@@ -10,6 +10,7 @@
   "dependencies": {
     "cannon": "^0.6.2",
     "dat.gui": "^0.7.9",
+    "disable-devtool": "^0.3.6",
     "nipplejs": "^0.10.1",
     "playroomkit": "latest",
     "react": "^18.2.0",

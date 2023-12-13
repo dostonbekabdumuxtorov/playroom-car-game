@@ -1,7 +1,8 @@
 import * as THREE from 'three';
 import * as CANNON from 'cannon';
 import shape2mesh from "./utils/shape2mesh";
-
+import disableDevtool from 'disable-devtool';
+disableDevtool()
 export default function createWorld(scene, PhysicsWorld, width = 20){
   const floor = new CANNON.Body({
     mass: 0,
